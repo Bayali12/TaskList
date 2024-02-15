@@ -12,14 +12,9 @@ export const Home = () => {
     (state) => state.tasksReducer,
   );
 
-  const filteredTasks = filterTasks(
-    searchTerm,
-    statusFilter,
-    tasks,
-    users,
-    fromDate,
-    toDate,
-  );
+  const filteredTasks = tasks
+    ? filterTasks(searchTerm, statusFilter, tasks, users, fromDate, toDate)
+    : [];
 
   return (
     <div className={styles.home}>
