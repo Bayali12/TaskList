@@ -12,7 +12,7 @@ type TasksState = {
 };
 
 const initialState: TasksState = {
-  tasks: JSON.parse(localStorage.getItem('tasks')!),
+  tasks: JSON.parse(localStorage.getItem('tasks')!) || [],
   searchTerm: '',
   statusFilter: 'all',
   fromDate: null,
