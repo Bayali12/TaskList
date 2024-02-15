@@ -1,0 +1,18 @@
+.dateFilter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+
+  input {
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: 1px solid #dddaff;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      border-color: #695efe;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  color: #fff;
+  background-color: #695efe;
+
+  .logoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+
+    img {
+      width: 25px;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.controlsBar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  .addBtn,
+  .resetBtn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    min-width: max-content;
+    border: none;
+    color: #fff;
+    background-color: #695efe;
+    border-radius: 5px;
+    transition: 0.2s;
+
+    &:hover {
+      background-color: darken(#695efe, 5%);
+    }
+
+    img {
+      display: block;
+      width: 16px;
+    }
+  }
+
+  .searchWrapper {
+    position: relative;
+
+    .searchIcon {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 16px;
+      transform: translate(50%, -55%);
+    }
+
+    .searchInput {
+      min-width: 250px;
+      padding: 5px 10px;
+      text-indent: 15px;
+      border-radius: 5px;
+      border: 1px solid #dddaff;
+      outline: none;
+
+      &:hover,
+      &:focus {
+        border-color: #695efe;
+      }
+    }
+  }
+
+  .filterSelect select {
+    max-height: 100%;
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: 1px solid #dddaff;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      border-color: #695efe;
+    }
+  }
+}
