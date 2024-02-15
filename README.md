@@ -2,7 +2,7 @@
 
 - TechStack: React, Ts, Redux Toolkit, scss modules
 - Other Libs: classnames, react-transition-group, uuidv4
--Functionality: adding, editing, deleting, searching, filtering
+- Functionality: adding, editing, deleting, searching, filtering
 
 # Local launch steps
 - Clone Repo
